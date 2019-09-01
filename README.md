@@ -16,7 +16,9 @@ git log  查看日志
 
 关于分支
 git branch   查看分支情况
+
 git checkout 分支名         切换分支
+
 git checkout -b "分支名"    新建新的分支
 
 git push -u origin master 提交到主分支
