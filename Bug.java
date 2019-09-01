@@ -7,10 +7,14 @@ public class HelloWorld {
 	}
 	
 	private static void test() {
-		int a = 1;
-		int b = 0;
-		int result = a / b;
-		System.out.println("result = " + result);
+		try{
+			int a = 1;
+			int b = 0;
+			int result = a / b;
+			System.out.println("result = " + result);
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 }
