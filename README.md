@@ -2,8 +2,6 @@
 
 Git 版本控制工具练习
 
-<<<<<<< HEAD
-=======
 git pull 拉取
 
 git clone  克隆到本地
@@ -22,4 +20,3 @@ git checkout 分支名         切换分支
 git checkout -b "分支名"    新建新的分支
 
 git push -u origin master 提交到主分支
->>>>>>> bugfix
